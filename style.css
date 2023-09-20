@@ -1,0 +1,116 @@
+body{
+   margin: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.inicial{
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.imagem1{
+    width: 390px;
+}
+.grupo1{
+    position: absolute;
+}
+.icone1{
+    border-style:solid;
+    border-width: 6px;
+    border-color: rgba(0, 128, 54, 1);
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+}
+.menu{
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
+.item{
+    background: rgba(0, 128, 54, 1);
+    display: flex;
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px #888888;
+}
+.item:hover{
+    background: #888888;
+}
+.item img{
+    margin: 0px;
+    justify-content: flex-end;
+    padding-left:20px;
+    gap: 30px;
+}
+.item h3{
+    display: inline-block;
+    margin: 0px auto;
+}
+/*Segundo Grupo*/
+.grupo2{
+    background: linear-gradient(45deg, rgb(0, 0, 0) 20%, rgb(0, 61, 0)55%);
+    width: 390px;
+    height: 440px;
+    display: block;
+    margin: 0px auto;
+    margin-top: -19px;
+    position: relative;
+}
+.texto{
+    color: white;
+    margin-top: 38px;
+    margin-left: 10px;
+}
+.sp2{
+    position: absolute;
+    top: -35px;
+    margin-left: 150px;
+    
+}
+.sp2 img{
+    border-radius: 50%;
+}
+.sp1{
+    padding: 15px 25px; 
+    background: #008036;
+    color: white;
+    border-radius: 0px 45px 45px 60px;
+    margin-left: 15px;
+}
+.detalhes{
+    width: 380px;
+    margin:  0px auto;
+    display: flex;
+}
+.coluna{
+   flex: 1;
+}
+.master{
+    display: flex;
+    flex-flow: column;
+   
+}
+.esquerda{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+.direita{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+.copia{
+    width: 390px;
+    display: block;
+    margin: 0px auto;
+}
+.copia img{
+    max-width: 100%;
+}
